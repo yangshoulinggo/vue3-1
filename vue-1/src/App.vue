@@ -1,17 +1,16 @@
 <script setup>
-import ProductTable from './components/ProductTable/Index.vue'
 </script>
 
 <template>
-  <div class="product-table-container">
-    <h1>可编辑标签表格演示</h1>
-    <ProductTable />
+  <div class="app">
+    <router-view />
   </div>
 </template>
 
 <style scoped>
-.product-table-container {
+.app {
   max-width: 800px;
   margin: 0 auto;
+  padding: 20px;
 }
 </style>
