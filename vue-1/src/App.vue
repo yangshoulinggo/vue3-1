@@ -1,7 +1,17 @@
 <script setup>
-import Demo1 from './components/Demo1.vue'
+import ProductTable from './components/ProductTable/Index.vue'
 </script>
 
 <template>
-  <Demo1 />
+  <div class="product-table-container">
+    <h1>可编辑标签表格演示</h1>
+    <ProductTable />
+  </div>
 </template>
+
+<style scoped>
+.product-table-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+</style>
